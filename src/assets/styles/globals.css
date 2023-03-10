@@ -1,0 +1,26 @@
+@font-face {
+    font-family: circularStd;
+    src: url(../fonts/CircularStd-Book.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: circularStd;
+}
+body::-webkit-scrollbar {
+    width: 0.55px;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* body{
+    overflow-y: hidden;
+} */
+
+li{
+    list-style: none;
+}
+

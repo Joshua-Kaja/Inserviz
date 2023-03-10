@@ -1,0 +1,142 @@
+.home_para{
+    font-size: 1.5rem;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: #160647;
+    line-height: 30px;
+}
+
+.headers{
+    font-weight: bolder;
+    color: #160647;
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.headers-small{
+    font-weight: bolder;
+    color: dodgerblue;
+    /* margin-top: 5rem; */
+    font-size: 1.8rem;
+}
+
+.cards_container{
+    text-decoration: none;
+    color: dodgerblue;
+    display: block;
+    /* line-height: 20px; */
+    background: linear-gradient(300deg, #fff, #47beb819);
+    padding: 3rem 0;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    /* height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: 0 0 25px rgba(51, 51, 51, 0.039);
+
+}
+
+.cards:hover{
+    /* margin-top: 1rem; */
+    transition: 0.5s all;
+}
+
+.cards:hover .cards_container{
+    box-shadow: 0 0 30px rgba(51, 51, 51, 0.146)
+}
+
+.home_card__text{
+    line-height: 10px;
+}
+.home_card__text h6{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.rounded-circle{
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid #47beb830;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    background-color: #fff;
+}
+
+.home_card_link{
+    text-decoration: none;
+    color: #47beb8;
+}
+
+.home_card_link:hover{
+    color: #160647;
+}
+
+.move_down{
+    margin-top: 8rem;
+}
+
+.brand_header{
+    font-size: 1.2rem;
+    color: #76838f;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.brand_card_header{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.brand_card_container{
+    border: 1px solid transparent;
+    padding: 3rem 0;
+    border-radius: 20px;
+    /* background-color: #47beb807; */
+    color: #160647;
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.087); */
+    transition: 0.5s all;
+}
+.brand_card_container:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0);
+    /* border: 1px solid #47beb8; */
+}
+
+.brand_btn{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    border: 1px solid #47beb8;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    color: #47beb8;
+    transition: 0.4s all;
+}
+
+.brand_btn:hover{
+    background-color: #47beb8;
+    color: #fff
+}
+.fund{
+    font-weight: 900;
+    margin-top: 1rem;
+}
+.fund span{
+    font-size: 2rem;    
+}
+
+.fund_text{
+    font-weight: 600;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.fund_cont{
+    line-height: 30px;
+    color: #160647;
+}
