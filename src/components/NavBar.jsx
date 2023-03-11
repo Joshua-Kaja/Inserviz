@@ -159,17 +159,40 @@ const NavBar = () => {
           </Link>
         </div>
         <div className="d-sm-none">
-          <IoMenu size={20} onClick={handleClick} />
+          <IoMenu size={30} onClick={handleClick} />
         </div>
       </div>
       <Collapse isOpen={isOpen}>
         <nav className="collapse_card card border-0 mt-3 d-lg-none">
           <div className="collapse_container">
-            <div className="d-flex justify-content-between align-items-center">
-              <Link to="" className="link_item">
-                Template
-              </Link>
-              <FiChevronDown />
+            <div className="d-flex flex-column p-3">
+              <NavLink
+                to="/faqs"
+                className="link_item text-decoration-none px-2"
+              >
+                FAQs
+              </NavLink>
+              <NavLink
+                to="/about-us"
+                className="link_item text-decoration-none px-2"
+              >
+                About Us
+              </NavLink>
+              <NavLink to="/" className="link_item text-decoration-none px-2">
+                Contact Us
+              </NavLink>
+              <NavLink
+                to="/blog"
+                className="link_item text-decoration-none px-2"
+              >
+                Blog
+              </NavLink>
+              <NavLink
+                to="/form"
+                className="link_item text-decoration-none d-block bg-primary text-white w-50 px-2 rounded"
+              >
+                Become an Inprov
+              </NavLink>
             </div>
           </div>
         </nav>

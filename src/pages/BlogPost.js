@@ -1,6 +1,7 @@
 import React from "react";
 import blog1 from "../assets/images/blog1.jpg";
 import blog2 from "../assets/images/shotman.jpg";
+import Footer from "../components/Footer";
 
 const BlogPost = () => {
   return (
@@ -98,6 +99,7 @@ const BlogPost = () => {
           visit Inserviz and join our community today!
         </p>
       </div>
+      <Footer />
     </>
   );
 };
