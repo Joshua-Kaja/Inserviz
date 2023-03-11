@@ -14,7 +14,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar mt-3">
       <div className="container d-flex justify-content-between align-items-center flex_height">
         <Link to="/" className="navbar_brand">
           <img src={logo} alt="" className="logo" />
@@ -148,7 +148,7 @@ const NavBar = () => {
           <NavLink to="" className="navbar_login">
             Contact Us
           </NavLink>
-          <NavLink to="" className="navbar_login">
+          <NavLink to="/blog" className="navbar_login">
             Blog
           </NavLink>
           <Link

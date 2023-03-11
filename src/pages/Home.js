@@ -73,7 +73,7 @@ const Home = () => {
                   </div>
                   <div className="home_card__text">
                     <h6>Digital Services</h6>
-                    <p>Lorem ipsum dolor sit amet.</p>
+
                     <Link to="" className="home_card_link">
                       Read More
                     </Link>
@@ -89,7 +89,7 @@ const Home = () => {
                   </div>
                   <div className="home_card__text">
                     <h6>Artisans</h6>
-                    <p>Lorem ipsum dolor sit amet.</p>
+
                     <Link to="" className="home_card_link">
                       Read More
                     </Link>
@@ -105,7 +105,7 @@ const Home = () => {
                   </div>
                   <div className="home_card__text">
                     <h6>Beauty Services</h6>
-                    <p>Lorem ipsum dolor sit amet.</p>
+
                     <Link to="" className="home_card_link">
                       Read More
                     </Link>
@@ -123,7 +123,7 @@ const Home = () => {
                   </div>
                   <div className="home_card__text">
                     <h6>Health & Fitness</h6>
-                    <p>Lorem ipsum dolor sit amet.</p>
+
                     <Link to="" className="home_card_link">
                       Read More
                     </Link>
@@ -139,7 +139,7 @@ const Home = () => {
                   </div>
                   <div className="home_card__text">
                     <h6>Domestic Services</h6>
-                    <p>Lorem ipsum dolor sit amet.</p>
+
                     <Link to="" className="home_card_link">
                       Read More
                     </Link>
@@ -155,7 +155,7 @@ const Home = () => {
                   </div>
                   <div className="home_card__text">
                     <h6>Entertainment/Events</h6>
-                    <p>Lorem ipsum dolor sit amet.</p>
+
                     <Link to="" className="home_card_link">
                       Read More
                     </Link>

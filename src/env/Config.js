@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import AboutUs from "../pages/AboutUs";
+import Blog from "../pages/Blog";
+import BlogPost from "../pages/BlogPost";
 import FAQ from "../pages/FAQ";
 import Home from "../pages/Home";
 import InservizForm from "../pages/InservizForm";
@@ -21,6 +23,8 @@ const Config = () => {
         <Route exact path="/form" element={<InservizForm />} />
         <Route exact path="/about-us" element={<AboutUs />} />
         <Route exact path="/faqs" element={<FAQ />} />
+        <Route exact path="/blog" element={<Blog />} />
+        <Route exact path="/blog-post" element={<BlogPost />} />
         <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>

@@ -140,3 +140,16 @@
     line-height: 30px;
     color: #160647;
 }
+
+.blog_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 25rem;
+  }
+
+  .img_container{
+    width: 40rem;
+    height: 35rem;
+  }
