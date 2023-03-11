@@ -153,3 +153,21 @@
     width: 40rem;
     height: 35rem;
   }
+
+  @media (max-width: 567px) {
+    .blog_container{
+        flex-direction: column;
+      }
+      .headers_text{
+        width: 100%;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+      }
+      
+      .home_para{
+        font-size: 1.2em;
+        width: 100%;
+        padding: 0 2rem;
+        text-align: justify;
+    }
+  }

@@ -21,7 +21,7 @@ const Blog = () => {
             to="/blog-post"
             className="text-decoration-none mx-5 "
           >
-            <h1 className="headers-small w-75 " style={{ color: "#160647" }}>
+            <h1 className="headers-small w-sm-75 headers_text" style={{ color: "#160647" }}>
               Creating Opportunities for the Youth in the Gig Economy
             </h1>
             <b>By Inserviz Team</b> |{" "}

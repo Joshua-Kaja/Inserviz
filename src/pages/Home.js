@@ -58,11 +58,11 @@ const Home = () => {
 
       <div className="">
         <h1 className="text-center headers mb-3">Service Categories</h1>
-        <p className="home_para">
+        {/* <p className="home_para">
           Bdesc.ai Business Plans offers a variety of services to help companies
           navigate market research, strategic planning, and the capital raising
           process.
-        </p>
+        </p> */}
         <div className="container">
           <div className="row gy-3 mt-5">
             <Link to="" className="col-sm-4 text-decoration-none cards">
