@@ -37,7 +37,7 @@ const Home = () => {
           <a
             href="https://chat.whatsapp.com/LBza0Rx0BrFLtTsqtBVTQa"
             target="_blank"
-            className="btn_getstarted  bg_deep d-block w-100 text-nowrap text-decoration-none"
+            className="btn_getstarted text-white  bg_deep d-block w-100 text-nowrap text-decoration-none"
           >
             <RiCustomerService2Fill className="mx-2" size={20} />
             Join Our Community
@@ -45,7 +45,7 @@ const Home = () => {
           <p className="mx-2 mt-2 gray_text d-sm-block d-none"></p>
           <Link
             to="/form"
-            className="btn_getstarted text-nowrap mt-sm-0 mt-2 d-block w-100 text-decoration-none"
+            className="btn_getstarted text-white text-nowrap mt-sm-0 mt-2 d-block w-100 text-decoration-none"
           >
             {/* <ImInsertTemplate className="mx-2" size={30} /> */}
             Become an Inprov{" "}
