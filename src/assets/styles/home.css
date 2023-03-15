@@ -153,7 +153,9 @@
     width: 40rem;
     height: 35rem;
   }
-
+.form_card{
+    width: 50%;
+}
   @media (max-width: 567px) {
     .blog_container{
         flex-direction: column;
@@ -169,5 +171,9 @@
         width: 100%;
         padding: 0 2rem;
         text-align: justify;
+    }
+    .form_card{
+        width: 100%;
+        background-color: #160647;
     }
   }
