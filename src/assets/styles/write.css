@@ -17,6 +17,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
+    z-index: 99;
     /* width: 95%;
     margin: auto; */
 }
@@ -177,6 +178,7 @@
     letter-spacing: -.03em;
     margin-top: 5rem;
 }
+
 
 .hero .g-text{
     background: -webkit-linear-gradient(90deg, dodgerblue, dodgerblue);
@@ -494,9 +496,10 @@
         line-height: 44px;
         width: 90%;
     }
+
     .hero_text{
-        margin-top: 0;
-        width: 60%;
+        margin-top: 1rem;
+        width: 100%;
         text-align: center;
     }
     /* .btn_getstarted{
@@ -576,6 +579,9 @@
     }
     .flex_4{
         width: 100%;
+    }
+    .line{
+        display: none;
     }
 }
 
