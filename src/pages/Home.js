@@ -166,7 +166,7 @@ const Home = () => {
           </div>
           <div className="brands_container">
             <div className="line mx-auto move_down"></div>
-            <h1 className="text-center headers mb-3 w-50 mx-auto">
+            <h1 className="headers mb-3 mx-auto hero_text">
               Define your own terms! One Gig at a time
             </h1>
             <p className="home_para mt-5">
