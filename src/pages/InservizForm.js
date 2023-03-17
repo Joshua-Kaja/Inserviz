@@ -41,14 +41,14 @@ const InservizForm = () => {
     // TODO: Handle form submission
     const remove = toast.loading("Loading...");
     const response = await axios.post(
-      "http://localhost:3001/api/v1/forms/get-registered-form",
+      "https://inserviz-380715.uc.r.appspot.com/api/v1/forms/register",
       {
         ...details,
       }
     );
 
-    if (response.data.message.code) {
-      toast.error("Your already regsitered");
+    if (response.data.status === 400) {
+      toast.error("You are already regsitered");
       toast.dismiss(remove);
     } else {
       console.log(response);
