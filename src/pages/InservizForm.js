@@ -44,6 +44,9 @@ const InservizForm = () => {
       "https://inserviz-381216.uc.r.appspot.com/api/v1/forms/register",
       {
         ...details,
+      },
+      {
+        headers: { "Access-Control-Allow-Origin": "*" },
       }
     );
 
