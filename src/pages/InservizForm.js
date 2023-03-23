@@ -41,9 +41,12 @@ const InservizForm = () => {
     // TODO: Handle form submission
     const remove = toast.loading("Loading...");
     const response = await axios.post(
-      "https://inserviz-380715.uc.r.appspot.com/api/v1/forms/register",
+      "https://inserviz-381216.uc.r.appspot.com/api/v1/forms/register",
       {
         ...details,
+      },
+      {
+        headers: { "Access-Control-Allow-Origin": "*" },
       }
     );
 
